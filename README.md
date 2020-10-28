@@ -22,5 +22,5 @@ COPY --from=inowas/modflow-build:latest /modflow-bin /usr/local/bin
 ### Use as base-repo
 
 ```
-FROM inowas/modflow-buil-latest
+FROM inowas/modflow-build:latest
 ``` 
