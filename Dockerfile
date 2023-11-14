@@ -5,8 +5,7 @@ MAINTAINER Ralf Junghanns <ralf.junghanns@gmail.com>
 RUN buildDeps="unzip wget g++ gfortran make" && \
     apt-get update && \
     apt-get install -y $buildDeps --no-install-recommends && \
-    apt-get clean && \
-    rm -rf /var/lib/apt/lists/*
+    apt-get clean
 
 # Install necessary packages
 COPY ./requirements.txt /requirements.txt
