@@ -19,3 +19,4 @@ RUN mkdir /modflow-bin
 RUN make-program : --appdir /modflow-bin
 WORKDIR /modflow-bin
 RUN for file in ./*; do chmod +x $file 2>/dev/null; done
+RUN for for file in ./*; do scp $file /usr/local/bin/; done
