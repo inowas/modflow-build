@@ -1,4 +1,4 @@
-FROM python:3.11-buster
+FROM python:3.9-bookworm
 
 MAINTAINER Ralf Junghanns <ralf.junghanns@gmail.com>
 
